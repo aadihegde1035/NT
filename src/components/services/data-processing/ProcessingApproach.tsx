@@ -22,7 +22,7 @@ export default function ProcessingApproach() {
             <div className="mt-12 space-y-8">
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <Bot className="w-6 h-6 text-blue-600" />
+                  <Bot className="w-6 h-6 text-emerald-700" />
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold text-gray-900">Automated Processing Tools</h3>
@@ -34,7 +34,7 @@ export default function ProcessingApproach() {
               
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <Users className="w-6 h-6 text-blue-600" />
+                  <Users className="w-6 h-6 text-emerald-700" />
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold text-gray-900">Human Expertise</h3>
@@ -46,7 +46,7 @@ export default function ProcessingApproach() {
               
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <Workflow className="w-6 h-6 text-blue-600" />
+                  <Workflow className="w-6 h-6 text-emerald-700" />
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold text-gray-900">Hybrid Model</h3>
@@ -65,7 +65,7 @@ export default function ProcessingApproach() {
                 alt="Team collaboration"
                 className="w-full rounded-lg shadow-lg"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-transparent mix-blend-multiply rounded-lg" />
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-700/20 to-transparent mix-blend-multiply rounded-lg" />
             </div>
           </div>
         </div>

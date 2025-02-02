@@ -79,11 +79,11 @@ export default function Home() {
             src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80"
             alt="Data visualization"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900 to-blue-900/75 mix-blend-multiply" />
+          <div className="absolute inset-0 bg-gradient-to-r from-emerald-900 to-emerald-900/75 mix-blend-multiply" />
         </div>
         <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8 h-[80vh] flex flex-col justify-center">
           <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Structura DataWorks
+            Northern Trust DataWorks
           </h1>
           <p className="mt-6 max-w-3xl text-xl text-gray-300">
             Shaping Your Data for Success. In the modern business landscape, data is more than just numbers 
@@ -92,14 +92,14 @@ export default function Home() {
           <div className="mt-10 flex gap-4">
             <Link
               to="/login"
-              className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
+              className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-emerald-700 hover:bg-emerald-700"
             >
               <LogIn className="mr-2 h-5 w-5" />
               Employee Portal
             </Link>
             <a
               href="#about"
-              className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-gray-50 hover:bg-gray-100"
+              className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-emerald-700 bg-gray-50 hover:bg-gray-100"
             >
               Learn More
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -114,7 +114,7 @@ export default function Home() {
           {/* <div className="text-center">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Who We Are</h2>
             <p className="mt-4 text-xl text-gray-500 max-w-3xl mx-auto">
-              At Structura DataWorks, we believe that well-structured data is the foundation of success. 
+              At Northern Trust DataWorks, we believe that well-structured data is the foundation of success. 
               Founded by data enthusiasts and problem solvers, we aim to help businesses unlock the true 
               potential of their information.
             </p>
@@ -126,9 +126,9 @@ export default function Home() {
           {/* Stats */}
           <div className="mt-20 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {stats.map((stat) => (
-              <div key={stat.label} className="bg-blue-50 p-6 rounded-lg transform hover:scale-105 transition-transform duration-200">
-                <stat.icon className="h-8 w-8 text-blue-600" />
-                <p className="mt-4 text-3xl font-extrabold text-blue-600">{stat.value}</p>
+              <div key={stat.label} className="bg-emerald-50 p-6 rounded-lg transform hover:scale-105 transition-transform duration-200">
+                <stat.icon className="h-8 w-8 text-emerald-700" />
+                <p className="mt-4 text-3xl font-extrabold text-emerald-700">{stat.value}</p>
                 <p className="text-sm font-medium text-gray-500">{stat.label}</p>
               </div>
             ))}
@@ -149,7 +149,7 @@ export default function Home() {
           <div className="mt-20 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {services.map((service) => (
               <div key={service.title} className="relative bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200">
-                <div className="w-12 h-12 rounded-md bg-blue-600 flex items-center justify-center">
+                <div className="w-12 h-12 rounded-md bg-emerald-700 flex items-center justify-center">
                   <service.icon className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="mt-4 text-lg font-medium text-gray-900">{service.title}</h3>
@@ -191,20 +191,20 @@ export default function Home() {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-blue-700">
+      <div className="bg-emerald-700">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between">
           <div className="text-center lg:text-left">
             <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
               Ready to Transform Your Data?
             </h2>
-            <p className="mt-3 text-lg text-blue-100">
-              Join countless businesses that trust Structura DataWorks for their data needs.
+            <p className="mt-3 text-lg text-emerald-100">
+              Join countless businesses that trust Northern Trust DataWorks for their data needs.
             </p>
           </div>
           <div className="mt-8 lg:mt-0 flex flex-col sm:flex-row gap-4">
             <Link
               to="/contact"
-              className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-gray-50 hover:bg-blue-50"
+              className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-emerald-700 bg-gray-50 hover:bg-emerald-50"
             >
               Contact Us
             </Link>

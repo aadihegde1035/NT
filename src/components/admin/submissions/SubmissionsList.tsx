@@ -9,7 +9,7 @@ export default function SubmissionsList() {
   if (loading) {
     return (
       <div className="flex justify-center p-8">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600" />
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-emerald-700" />
       </div>
     );
   }
@@ -86,7 +86,7 @@ export default function SubmissionsList() {
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                   <button
                     onClick={() => setSelectedSubmission(submission)}
-                    className="text-blue-600 hover:text-blue-900"
+                    className="text-emerald-700 hover:text-emerald-900"
                   >
                     Review
                   </button>

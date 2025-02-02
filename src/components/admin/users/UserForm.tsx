@@ -88,7 +88,7 @@ export default function UserForm({ user, onClose }: UserFormProps) {
               name="username"
               value={values.username}
               onChange={handleChange}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
             />
             {errors.username && (
               <p className="mt-1 text-sm text-red-600">{errors.username}</p>
@@ -104,7 +104,7 @@ export default function UserForm({ user, onClose }: UserFormProps) {
               name="name"
               value={values.name}
               onChange={handleChange}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
             />
             {errors.name && (
               <p className="mt-1 text-sm text-red-600">{errors.name}</p>
@@ -120,7 +120,7 @@ export default function UserForm({ user, onClose }: UserFormProps) {
               name="email"
               value={values.email}
               onChange={handleChange}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
             />
             {errors.email && (
               <p className="mt-1 text-sm text-red-600">{errors.email}</p>
@@ -136,7 +136,7 @@ export default function UserForm({ user, onClose }: UserFormProps) {
               name="phone"
               value={values.phone}
               onChange={handleChange}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
             />
             {errors.phone && (
               <p className="mt-1 text-sm text-red-600">{errors.phone}</p>
@@ -152,7 +152,7 @@ export default function UserForm({ user, onClose }: UserFormProps) {
               name="date_of_birth"
               value={values.date_of_birth}
               onChange={handleChange}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
             />
             {errors.date_of_birth && (
               <p className="mt-1 text-sm text-red-600">{errors.date_of_birth}</p>
@@ -169,7 +169,7 @@ export default function UserForm({ user, onClose }: UserFormProps) {
                 name="password"
                 value={values.password}
                 onChange={handleChange}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
               />
               {errors.password && (
                 <p className="mt-1 text-sm text-red-600">{errors.password}</p>
@@ -188,7 +188,7 @@ export default function UserForm({ user, onClose }: UserFormProps) {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md disabled:opacity-50"
+              className="px-4 py-2 text-sm font-medium text-white bg-emerald-700 hover:bg-emerald-700 rounded-md disabled:opacity-50"
             >
               {isSubmitting ? 'Saving...' : user ? 'Update' : 'Create'}
             </button>

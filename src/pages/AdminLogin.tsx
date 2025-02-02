@@ -10,7 +10,7 @@ export default function AdminLogin() {
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-emerald-700"></div>
       </div>
     );
   }
@@ -19,7 +19,7 @@ export default function AdminLogin() {
     <div className="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <div className="flex justify-center">
-          <Shield className="w-12 h-12 text-blue-600" />
+          <Shield className="w-12 h-12 text-emerald-700" />
         </div>
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
           {hasAdmin ? 'Admin Login' : 'Create Admin Account'}

@@ -30,7 +30,7 @@ export default function AssignmentCard({ assignment, onClick }: AssignmentCardPr
               ID: {assignment.assignment.assignment_id}
             </p>
           </div>
-          <FileText className={isPending ? "text-blue-500" : "text-green-500"} size={24} />
+          <FileText className={isPending ? "text-emerald-500" : "text-green-500"} size={24} />
         </div>
         
         <div className="mt-4 space-y-2">

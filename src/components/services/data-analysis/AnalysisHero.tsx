@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AnalysisHero() {
   return (
-    <div className="relative bg-gradient-to-b from-gray-900 to-blue-900 py-32">
+    <div className="relative bg-gradient-to-b from-gray-900 to-emerald-900 py-32">
       <div className="absolute inset-0">
         <img
           className="w-full h-full object-cover opacity-20"
@@ -10,7 +10,7 @@ export default function AnalysisHero() {
           alt="Data visualization"
         />
         <div 
-          className="absolute inset-0 bg-gradient-to-r from-gray-900 to-blue-900/90 mix-blend-multiply"
+          className="absolute inset-0 bg-gradient-to-r from-gray-900 to-emerald-900/90 mix-blend-multiply"
         />
       </div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

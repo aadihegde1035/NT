@@ -42,7 +42,7 @@ export default function WhyChooseUs() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
           <div>
-            <h2 className="text-3xl font-bold text-gray-900">Why Choose Structura DataWorks</h2>
+            <h2 className="text-3xl font-bold text-gray-900">Why Choose Northern Trust DataWorks</h2>
             <p className="mt-4 text-lg text-gray-600">
               We combine industry expertise with cutting-edge technology to deliver superior data analysis solutions that drive business success.
             </p>
@@ -51,7 +51,7 @@ export default function WhyChooseUs() {
               {reasons.map((reason) => (
                 <div key={reason.title} className="flex items-start">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-blue-600 text-white">
+                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-emerald-700 text-white">
                       <reason.icon className="h-6 w-6" />
                     </div>
                   </div>
@@ -71,7 +71,7 @@ export default function WhyChooseUs() {
                 alt="Team collaboration"
                 className="w-full rounded-lg shadow-lg"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-transparent mix-blend-multiply rounded-lg" />
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-700/20 to-transparent mix-blend-multiply rounded-lg" />
             </div>
           </div>
         </div>

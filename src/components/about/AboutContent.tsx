@@ -8,7 +8,7 @@ export default function AboutContent() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
             <p className="text-lg text-gray-600">
-              Structura DataWorks was born from a simple yet powerful idea: to empower businesses by giving them clarity and control over their data. As companies grow, so does the complexity of their information. We recognized the need for a dedicated partner who could simplify, structure, and optimize data, enabling businesses to thrive in today's data-driven world.
+              Northern Trust DataWorks was born from a simple yet powerful idea: to empower businesses by giving them clarity and control over their data. As companies grow, so does the complexity of their information. We recognized the need for a dedicated partner who could simplify, structure, and optimize data, enabling businesses to thrive in today's data-driven world.
             </p>
           </section>
 

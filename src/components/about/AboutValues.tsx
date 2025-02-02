@@ -18,7 +18,7 @@ export default function AboutValues() {
           {values.map((value) => (
             <div key={value.title} className="bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
-                <value.icon className="h-6 w-6 text-blue-600 mr-3" />
+                <value.icon className="h-6 w-6 text-emerald-700 mr-3" />
                 <h3 className="text-lg font-semibold text-gray-900">{value.title}</h3>
               </div>
               <p className="text-gray-600">{value.description}</p>

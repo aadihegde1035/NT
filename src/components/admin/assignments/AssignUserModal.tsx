@@ -33,7 +33,7 @@ export default function AssignUserModal({ assignment, onClose }: AssignUserModal
         <form onSubmit={handleSubmit} className="space-y-4">
           {loadingUsers ? (
             <div className="flex justify-center p-4">
-              <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600" />
+              <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-emerald-700" />
             </div>
           ) : (
             <div className="max-h-60 overflow-y-auto">
@@ -53,7 +53,7 @@ export default function AssignUserModal({ assignment, onClose }: AssignUserModal
                         setSelectedUsers(selectedUsers.filter(id => id !== user.id));
                       }
                     }}
-                    className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+                    className="h-4 w-4 text-emerald-700 focus:ring-emerald-500 border-gray-300 rounded"
                   />
                   <span className="text-sm text-gray-900">{user.name}</span>
                 </label>
@@ -72,7 +72,7 @@ export default function AssignUserModal({ assignment, onClose }: AssignUserModal
             <button
               type="submit"
               disabled={assigning || selectedUsers.length === 0}
-              className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md disabled:opacity-50"
+              className="px-4 py-2 text-sm font-medium text-white bg-emerald-700 hover:bg-emerald-700 rounded-md disabled:opacity-50"
             >
               {assigning ? 'Assigning...' : 'Assign Selected Users'}
             </button>

@@ -42,7 +42,7 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
                   to={item.path}
                   className={`flex items-center px-6 py-3 text-sm ${
                     isActive
-                      ? 'bg-blue-50 text-blue-600 border-r-4 border-blue-600'
+                      ? 'bg-emerald-50 text-emerald-700 border-r-4 border-emerald-700'
                       : 'text-gray-600 hover:bg-gray-50'
                   }`}
                 >

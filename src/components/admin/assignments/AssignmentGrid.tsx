@@ -26,7 +26,7 @@ export default function AssignmentGrid({ assignments }: AssignmentGridProps) {
                     ID: {assignment.assignment_id}
                   </p>
                 </div>
-                <FileText className="text-blue-500" size={24} />
+                <FileText className="text-emerald-500" size={24} />
               </div>
               
               <div className="space-y-3">
@@ -49,13 +49,13 @@ export default function AssignmentGrid({ assignments }: AssignmentGridProps) {
                   href={assignment.pdf_path}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-blue-600 hover:text-blue-800"
+                  className="text-sm text-emerald-700 hover:text-emerald-800"
                 >
                   View PDF
                 </a>
                 <button
                   onClick={() => setSelectedAssignment(assignment)}
-                  className="px-4 py-2 bg-blue-600 text-white text-sm rounded-md hover:bg-blue-700"
+                  className="px-4 py-2 bg-emerald-700 text-white text-sm rounded-md hover:bg-emerald-700"
                 >
                   Assign Users
                 </button>

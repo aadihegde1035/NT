@@ -51,7 +51,7 @@ export default function ValueAddSection() {
         <div className="mt-16 grid grid-cols-1 gap-12 md:grid-cols-3">
           {approaches.map((approach) => (
             <div key={approach.title} className="bg-white rounded-xl shadow-xl overflow-hidden transform hover:-translate-y-2 transition-all duration-300">
-              <div className="bg-gradient-to-br from-blue-600 to-blue-700 p-6">
+              <div className="bg-gradient-to-br from-emerald-700 to-emerald-700 p-6">
                 <div className="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center mb-4">
                   <approach.icon className="h-6 w-6 text-white" />
                 </div>
@@ -61,7 +61,7 @@ export default function ValueAddSection() {
                 <ul className="space-y-4">
                   {approach.features.map((feature) => (
                     <li key={feature} className="flex items-start text-gray-600">
-                      <span className="mr-2 text-blue-600">•</span>
+                      <span className="mr-2 text-emerald-700">•</span>
                       {feature}
                     </li>
                   ))}

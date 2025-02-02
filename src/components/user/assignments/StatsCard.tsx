@@ -5,7 +5,7 @@ interface StatsCardProps {
   icon: LucideIcon;
   title: string;
   count: number;
-  color: 'blue' | 'yellow' | 'green';
+  color: 'emerald' | 'yellow' | 'green';
   onClick: () => void;
   active: boolean;
 }
@@ -19,10 +19,10 @@ export default function StatsCard({
   active 
 }: StatsCardProps) {
   const colorClasses = {
-    blue: {
-      bg: 'bg-blue-100',
-      text: 'text-blue-600',
-      hover: 'hover:bg-blue-50',
+    emerald: {
+      bg: 'bg-emerald-100',
+      text: 'text-emerald-700',
+      hover: 'hover:bg-emerald-50',
     },
     yellow: {
       bg: 'bg-yellow-100',

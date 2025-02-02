@@ -29,7 +29,7 @@ export default function UserListItem({ user }: UserListItemProps) {
           <div className="flex gap-2">
             <button
               onClick={() => setIsEditing(true)}
-              className="text-blue-600 hover:text-blue-800"
+              className="text-emerald-700 hover:text-emerald-800"
             >
               <Edit2 size={16} />
             </button>

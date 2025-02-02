@@ -6,15 +6,15 @@ import Layout from '../components/layout/Layout';
 export default function NotFound() {
   return (
     <Layout>
-      <div className="min-h-[80vh] bg-gradient-to-b from-blue-50 to-white flex items-center">
+      <div className="min-h-[80vh] bg-gradient-to-b from-emerald-50 to-white flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
           <div className="relative">
             <div className="absolute inset-0 flex items-center justify-center opacity-10">
-              <div className="text-[20rem] font-bold text-blue-900">404</div>
+              <div className="text-[20rem] font-bold text-emerald-900">404</div>
             </div>
             
             <div className="relative z-10">
-              <h1 className="text-6xl font-bold text-blue-900 mb-8">Page Not Found</h1>
+              <h1 className="text-6xl font-bold text-emerald-900 mb-8">Page Not Found</h1>
               <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
                 Oops! It seems like the page you're looking for has been moved or doesn't exist.
                 Let's get you back on track.
@@ -23,7 +23,7 @@ export default function NotFound() {
               <div className="flex justify-center gap-6">
                 <Link
                   to="/"
-                  className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors"
+                  className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-emerald-700 hover:bg-emerald-700 transition-colors"
                 >
                   <Home className="mr-2 h-5 w-5" />
                   Back to Home

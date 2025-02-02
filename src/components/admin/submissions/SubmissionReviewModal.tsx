@@ -62,14 +62,14 @@ export default function SubmissionReviewModal({ submission, onClose }: Submissio
                 max="100"
                 value={score}
                 onChange={(e) => setScore(e.target.value)}
-                className="mt-1 block w-32 rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-1 block w-32 rounded-md border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
                 required
               />
             </div>
             <button
               type="submit"
               disabled={loading}
-              className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 disabled:opacity-50"
+              className="px-4 py-2 bg-emerald-700 text-white rounded-md hover:bg-emerald-700 disabled:opacity-50"
             >
               {loading ? 'Submitting...' : 'Submit Review'}
             </button>

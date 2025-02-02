@@ -15,7 +15,7 @@ export default function AssignmentList() {
   if (loading) {
     return (
       <div className="flex justify-center p-8">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600" />
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-emerald-700" />
       </div>
     );
   }
@@ -45,7 +45,7 @@ export default function AssignmentList() {
           icon={FileText}
           title="Total Assignments"
           count={assignments.length}
-          color="blue"
+          color="emerald"
           onClick={() => setFilter('all')}
           active={filter === 'all'}
         />

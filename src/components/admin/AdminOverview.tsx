@@ -12,7 +12,7 @@ export default function AdminOverview() {
       title: 'Total Users',
       value: stats?.totalUsers || 0,
       icon: Users,
-      color: 'bg-blue-500',
+      color: 'bg-emerald-500',
       onClick: () => navigate('/admin/users'),
     },
     {
@@ -39,7 +39,7 @@ export default function AdminOverview() {
   if (loading) {
     return (
       <div className="h-full flex items-center justify-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-emerald-700"></div>
       </div>
     );
   }

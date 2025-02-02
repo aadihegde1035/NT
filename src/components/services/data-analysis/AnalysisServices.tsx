@@ -58,9 +58,9 @@ export default function AnalysisServices() {
               key={service.title}
               className="relative group"
             >
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-300" />
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-emerald-700 to-emerald-400 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-300" />
               <div className="relative bg-white p-8 rounded-lg shadow-lg">
-                <div className="flex items-center justify-center w-12 h-12 bg-blue-600 rounded-lg mb-6">
+                <div className="flex items-center justify-center w-12 h-12 bg-emerald-700 rounded-lg mb-6">
                   <service.icon className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">

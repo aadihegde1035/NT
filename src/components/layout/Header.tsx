@@ -32,10 +32,10 @@ export default function Header() {
         <div className="flex justify-between items-center px-4 sm:px-6 lg:px-8 h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <img src="/logo.png" alt="Structura DataWorks Logo" className="h-8 w-8" />
+            <img src="/logo.png" alt="Northern Trust DataWorks Logo" className="h-8 w-8" />
             <div>
-              <span className="text-xl font-bold text-gray-900 block leading-none">Structura</span>
-              <span className="text-sm text-blue-600 font-medium">DataWorks</span>
+              <span className="text-xl font-bold text-emerald-900 block leading-none">Northern Trust</span>
+              <span className="text-sm text-emerald-800 font-medium">DataWorks</span>
             </div>
           </Link>
 
@@ -47,8 +47,8 @@ export default function Header() {
                 to={item.path}
                 className={`text-sm font-medium transition-colors duration-200 ${
                   isActive(item.path)
-                    ? 'text-blue-600'
-                    : 'text-gray-600 hover:text-blue-600'
+                    ? 'text-emerald-700'
+                    : 'text-gray-600 hover:text-emerald-700'
                 }`}
               >
                 {item.label}
@@ -57,7 +57,7 @@ export default function Header() {
             <div className="relative">
               <button
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                className="flex items-center text-sm font-medium text-gray-600 hover:text-blue-600"
+                className="flex items-center text-sm font-medium text-gray-600 hover:text-emerald-700"
               >
                 Services
                 <ChevronDown className="ml-1 h-4 w-4" />
@@ -70,8 +70,8 @@ export default function Header() {
                       to={item.path}
                       className={`block px-4 py-2 text-sm ${
                         isActive(item.path)
-                          ? 'text-blue-600 bg-blue-50'
-                          : 'text-gray-700 hover:bg-blue-50'
+                          ? 'text-emerald-700 bg-emerald-50'
+                          : 'text-gray-700 hover:bg-emerald-50'
                       }`}
                       onClick={() => setIsDropdownOpen(false)}
                     >
@@ -83,7 +83,7 @@ export default function Header() {
             </div>
             <Link
               to="/login"
-              className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-200"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-emerald-700 hover:bg-emerald-700 transition-colors duration-200"
             >
               Employee Portal
             </Link>
@@ -92,7 +92,7 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={toggleMenu}
-            className="md:hidden p-2 rounded-md text-gray-600 hover:text-blue-600 hover:bg-blue-50"
+            className="md:hidden p-2 rounded-md text-gray-600 hover:text-emerald-700 hover:bg-emerald-50"
           >
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
@@ -108,8 +108,8 @@ export default function Header() {
                   to={item.path}
                   className={`block px-3 py-2 rounded-md text-base font-medium ${
                     isActive(item.path)
-                      ? 'text-blue-600 bg-blue-50'
-                      : 'text-gray-600 hover:text-blue-600 hover:bg-blue-50'
+                      ? 'text-emerald-700 bg-emerald-50'
+                      : 'text-gray-600 hover:text-emerald-700 hover:bg-emerald-50'
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -124,8 +124,8 @@ export default function Header() {
                     to={item.path}
                     className={`block px-3 py-2 text-sm ${
                       isActive(item.path)
-                        ? 'text-blue-600 bg-blue-50'
-                        : 'text-gray-600 hover:text-blue-600'
+                        ? 'text-emerald-700 bg-emerald-50'
+                        : 'text-gray-600 hover:text-emerald-700'
                     }`}
                     onClick={() => setIsMenuOpen(false)}
                   >
@@ -135,7 +135,7 @@ export default function Header() {
               </div>
               <Link
                 to="/login"
-                className="block px-3 py-2 text-base font-medium text-blue-600 hover:text-blue-700"
+                className="block px-3 py-2 text-base font-medium text-emerald-700 hover:text-emerald-700"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Employee Portal

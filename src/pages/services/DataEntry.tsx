@@ -45,7 +45,7 @@ export default function DataEntry() {
       <div className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-gray-900">Why Choose Structura DataWorks?</h2>
+            <h2 className="text-3xl font-bold text-gray-900">Why Choose Northern Trust DataWorks?</h2>
             <p className="mt-4 text-xl text-gray-600">
               Experience the difference of working with data entry experts
             </p>
@@ -53,7 +53,7 @@ export default function DataEntry() {
           <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {whyChooseUs.map((item) => (
               <div key={item.title} className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-shadow">
-                <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-emerald-700 rounded-lg flex items-center justify-center mb-4">
                   <item.icon className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
@@ -67,21 +67,21 @@ export default function DataEntry() {
       <WorkProcess />
 
       {/* CTA Section */}
-      <div className="bg-blue-700">
+      <div className="bg-emerald-700">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-          <div className="bg-blue-800 rounded-2xl shadow-xl overflow-hidden">
+          <div className="bg-emerald-800 rounded-2xl shadow-xl overflow-hidden">
             <div className="px-6 py-12 sm:px-12 lg:py-16">
               <div className="max-w-3xl mx-auto text-center">
                 <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
                   Transform Your Data Today
                 </h2>
-                <p className="mt-4 text-xl text-blue-100">
+                <p className="mt-4 text-xl text-emerald-100">
                   Don't let unstructured data hold your business back. Let's structure your data for success.
                 </p>
                 <div className="mt-8">
                   <a
                     href="/contact"
-                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-blue-50 transition-colors"
+                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-emerald-700 bg-white hover:bg-emerald-50 transition-colors"
                   >
                     Get Started
                     <ArrowRight className="ml-2 h-5 w-5" />

@@ -20,21 +20,21 @@ export default function DataProcessing() {
       <ProcessingWorkflow />
       
       {/* CTA Section */}
-      <div className="bg-gradient-to-r from-blue-700 to-blue-900">
+      <div className="bg-gradient-to-r from-emerald-700 to-emerald-900">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-          <div className="bg-blue-800/50 rounded-2xl shadow-xl overflow-hidden backdrop-blur-sm">
+          <div className="bg-emerald-800/50 rounded-2xl shadow-xl overflow-hidden backdrop-blur-sm">
             <div className="px-6 py-12 sm:px-12 lg:py-16">
               <div className="max-w-3xl mx-auto text-center">
                 <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
                   Turn Your Data into a Competitive Advantage
                 </h2>
-                <p className="mt-4 text-xl text-blue-100">
+                <p className="mt-4 text-xl text-emerald-100">
                   Let's transform your raw data into actionable insights that drive growth.
                 </p>
                 <div className="mt-8">
                   <a
                     href="/contact"
-                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-blue-50 transition-colors"
+                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-emerald-700 bg-white hover:bg-emerald-50 transition-colors"
                   >
                     Get Started Today
                   </a>

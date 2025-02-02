@@ -54,9 +54,9 @@ export default function ServicesOffered() {
         <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
             <div key={service.title} className="relative bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-bl-full" />
+              <div className="absolute top-0 right-0 w-20 h-20 bg-emerald-50 rounded-bl-full" />
               <div className="relative">
-                <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-6">
+                <div className="w-12 h-12 bg-emerald-700 rounded-lg flex items-center justify-center mb-6">
                   <service.icon className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">{service.title}</h3>

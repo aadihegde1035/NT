@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ProcessingHero() {
   return (
-    <div className="relative bg-gradient-to-b from-gray-900 to-blue-900 py-32">
+    <div className="relative bg-gradient-to-b from-gray-900 to-emerald-900 py-32">
       <div className="absolute inset-0">
         <img
           className="w-full h-full object-cover opacity-20"
@@ -10,7 +10,7 @@ export default function ProcessingHero() {
           alt="Data visualization"
         />
         <div 
-          className="absolute inset-0 bg-gradient-to-r from-gray-900 to-blue-900/90 mix-blend-multiply"
+          className="absolute inset-0 bg-gradient-to-r from-gray-900 to-emerald-900/90 mix-blend-multiply"
           style={{
             backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23FFFFFF' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
           }}

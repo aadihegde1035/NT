@@ -40,10 +40,10 @@ export default function AnalysisWorkflow() {
             {steps.map((step, index) => (
               <div key={step.title} className="relative">
                 {index < steps.length - 1 && (
-                  <div className="hidden md:block absolute top-12 left-full w-full h-0.5 bg-gradient-to-r from-blue-200 to-blue-400" />
+                  <div className="hidden md:block absolute top-12 left-full w-full h-0.5 bg-gradient-to-r from-emerald-200 to-emerald-400" />
                 )}
                 <div className="relative bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mb-6">
+                  <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-emerald-700 rounded-full flex items-center justify-center mb-6">
                     <step.icon className="h-6 w-6 text-white" />
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-3">{step.title}</h3>
