@@ -32,11 +32,11 @@ export default function Header() {
         <div className="flex justify-between items-center px-4 sm:px-6 lg:px-8 h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <img src="/logo.png" alt="Northern Trust DataWorks Logo" className="h-8 w-8" />
-            <div>
+            <img src="/NTlogo.png" alt="Northern Trust DataWorks Logo" className="h-12 w-auto" />
+            {/* <div>
               <span className="text-xl font-bold text-emerald-900 block leading-none">Northern Trust</span>
               <span className="text-sm text-emerald-800 font-medium">DataWorks</span>
-            </div>
+            </div> */}
           </Link>
 
           {/* Desktop Navigation */}
